@@ -75,7 +75,7 @@ h2{
 .navButtons {
 display:block;
 float: left;
-width: 24%;
+width: 50%;
 }
 
 @media only screen and (max-width:600px){
