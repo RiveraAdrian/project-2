@@ -19,13 +19,12 @@ p.centered{
   padding:10px;
 }
 .navButtons {
-font-family:'Book Antiqua';
 font-size:14pt;
 list-style-type: none;
 float: left;
 width: 50%;
 background-color: red;
-padding-bottom: 5px;
+padding-bottom: 10px;
 }
 #banner{
   border-radius: 5px;
