@@ -10,18 +10,18 @@ article{
 p{
   text-align: left;
   color:#ffffff;
-  font-family:'Book Antiqua';
+  font-family:'Rosario', sans-serif;
   font-size:14pt;
   background-color:#000000;
   max-width:700px;
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
+  padding: 1em;
 }
 .nav{
   text-align: center;
   padding:10px;
-
 }
 .navButtons {
 font-family:'Book Antiqua';
@@ -32,6 +32,11 @@ float: left;
 width: 50%;
 background-color: red;
 padding-bottom: 10px;
+border-radius: 10px;
+}
+.navButtons:hover{
+  background-color:#E11B06;
+  color: white;
 }
 li{
   list-style-type:none;
@@ -46,7 +51,14 @@ li{
     max-width:80%;
     height:auto;
 }
-h2{
+h2{font-size: 30px;
+}
+h1{
+  font-size: 40px;
+  padding-top: 50px;
+}
+h1,h2{
+    font-family:Georgia, serif
     align-content:center;
     color: #000000;
 }
@@ -66,7 +78,7 @@ h2{
 }
 #robot-paragraphs{
   color:#ffffff;
-  font-family:'Book Antiqua';
+  font-family:'Rosario', sans-serif;
   font-size:14pt;
   max-width:600px;
   border-radius: 10px;
@@ -80,10 +92,12 @@ h2{
   padding:10px;
 }
 .reasons{
+  font-family:"Impact,Charcoal,sans-serif";
+  color:#E6431A;
   list-style-type: none;
   padding:5px;
   font-size: 20px;
-  background-color: white;
+  background-color: #D8D8D8;
 }
 
 @media only screen and (max-width:600px){
@@ -94,5 +108,9 @@ h2{
     float:left;
     grid-template-columns: 100%;
   }
+  #singleImage{
+    max-width:100%;
+  }
+
 
 }
